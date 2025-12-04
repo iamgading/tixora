@@ -231,10 +231,10 @@ export default function Home() {
         >
           <motion.div 
             variants={fadeInUp}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-accent/10 to-violet-500/10 border border-accent/20 text-sm font-medium mb-8"
+            className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-gradient-to-r from-accent/10 to-violet-500/10 border border-accent/20 text-xs sm:text-sm font-medium mb-6 sm:mb-8"
           >
             <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-            <span className="text-foreground/80">Registrasi Event Modern dengan Tixora</span>
+            <span className="text-foreground/80">Platform Event All-in-One</span>
             <ChevronRight className="w-4 h-4 text-muted" />
           </motion.div>
 
@@ -243,7 +243,7 @@ export default function Home() {
             className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 leading-[1.1] tracking-tight"
           >
             <span className="bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent">
-              Kelola Event dengan
+              Kelola Registrasi dengan
             </span>
             <br />
             <span className="bg-gradient-to-r from-accent via-teal-400 to-accent bg-clip-text text-transparent">
