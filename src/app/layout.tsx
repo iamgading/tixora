@@ -17,10 +17,6 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Tixora - Event Registration & QR Check-in Platform",
   description: "Buat event lebih terstruktur dengan registrasi online dan QR code check-in. Gratis untuk semua organizer.",
-  icons: {
-    icon: "/favicon.svg",
-    apple: "/favicon.svg",
-  },
 };
 
 export default function RootLayout({
